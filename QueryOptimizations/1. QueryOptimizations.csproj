@@ -16,6 +16,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.0-preview.4.20220.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.0-preview.4.20220.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0-preview.4.20220.10" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.6" />
     <PackageReference Include="RepoDb.SqlServer" Version="1.0.7" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
     <PackageReference Include="Z.EntityFramework.Plus.EFCore" Version="5.0.0-preview.3.20181.2-02" />
