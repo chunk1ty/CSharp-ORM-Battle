@@ -15,6 +15,7 @@
 
         // public byte[] ProfilePicture { get; set; }
 
-        public virtual ICollection<Cat> Cats { get; set; } = new HashSet<Cat>();
+        // virtual because of Lazy loading
+        public  ICollection<Cat> Cats { get; set; } = new HashSet<Cat>();
     }
 }

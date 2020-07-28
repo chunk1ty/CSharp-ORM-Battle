@@ -24,6 +24,7 @@
         [Column]
         public int OwnerId { get; set; }
 
-        public virtual Owner Owner { get; set; }
+        // virtual because of Lazy loading
+        public  Owner Owner { get; set; }
     }
 }

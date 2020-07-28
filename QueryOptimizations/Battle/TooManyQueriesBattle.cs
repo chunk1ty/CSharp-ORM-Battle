@@ -25,21 +25,21 @@
             // Solutions
             // N.B all queries are cached !!
             EfUsingInclude();
-            EfUsingFilteredInclude();
-            EfCoreUsingSelect();
-            EfCoreUsingJoin();
-
-            LINQtoDb();
-
-            RepoDbQuery();
-            RepoDbQueryMultiple();
-            
-            DapperWithEfQuery();
-            DapperWithEfQuery();
-            DapperWithLinqToDbQuery();
-            DapperWithLinqToDbQuery();
-            
-            EFCoreRawSql();
+            // EfUsingFilteredInclude();
+            // EfCoreUsingSelect();
+            // EfCoreUsingJoin();
+            //
+            // LINQtoDb();
+            //
+            // RepoDbQuery();
+            // RepoDbQueryMultiple();
+            //
+            // DapperWithEfQuery();
+            // DapperWithEfQuery();
+            // DapperWithLinqToDbQuery();
+            // DapperWithLinqToDbQuery();
+            //
+            // EFCoreRawSql();
             
             Console.WriteLine(new string('-', 50));
         }
@@ -419,7 +419,7 @@
             
             var stopWatch = Stopwatch.StartNew();
 
-            using (var db = new CatsDbContext())
+            using (var db = new CatsDbContext(true))
             {
                 var owners = db.Owners
                     .Where(o => o.Name.Contains("1"))

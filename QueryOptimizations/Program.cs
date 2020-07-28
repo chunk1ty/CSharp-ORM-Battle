@@ -32,7 +32,7 @@
 
             // DataSeeder.Seed();
 
-            TooManyQueriesBattle.Fight();
+            // TooManyQueriesBattle.Fight();
             // LazyLoadingTooManyQueriesBattle.Fight();
             // SelectSpecificColumnsBattle.Fight();
             // IncorrectDataLoadingBattle.Fight();
@@ -41,7 +41,7 @@
             // DataSeeder.DeleteAndSeed();
             // ColdAndWarmQueriesBattle.Fight();
             // CompiledQueriesBattle.Fight();
-            // ChangeTrackingBattle.Fight();
+            ChangeTrackingBattle.Fight();
         }
     }
 }
